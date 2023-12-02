@@ -171,7 +171,7 @@ $ svn commit --username <APACHE USERNAME> -m "Release dubbo-go $GIT_TAG"
 ```
 Hello Dubbo/Dubbogo community
 
-This is a vote for the release of Apache Dubbo-go v3.1.1-rc1
+This is a vote for the release of Apache Dubbo-go v3.1.1-rc1.
 
 Release candidates:
 https://dist.apache.org/repos/dist/dev/dubbo/dubbo-go/v3.1.1-rc1
