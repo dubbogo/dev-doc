@@ -203,7 +203,7 @@ Please vote accordingly:
 Thank you, Apache Dubbo/Dubbogo team
 ```
 
-在获得 3 位 committers/PMCs 的确认邮件后，发送 RESULT 邮件至 dev@dubbo.apache.org，主题是 "[RESULT][VOTE] Release Apache Dubbo-go v3.1.1-rc1"。Vote and result thread 地址可以在 [dev@dubbo.apache.org](https://lists.apache.org/list.html?dev@dubbo.apache.org) 中找到。
+在获得 3 位 **PMCs** 的确认邮件后，发送 RESULT 邮件至 dev@dubbo.apache.org，主题是 "[RESULT][VOTE] Release Apache Dubbo-go v3.1.1-rc1"。Vote and result thread 地址可以在 [lists.apache.org](https://lists.apache.org/list.html?dev@dubbo.apache.org) 中找到。
 
 ```
 Hello Dubbo/Dubbogo Community,
