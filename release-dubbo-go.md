@@ -62,11 +62,19 @@ $ gpg --edit-key $PUB_KEY trust quit
 $ gpg --gen-revoke $PUB_KEY
 ```
 
-## CHANGELOG
+## 发布信息
+
+### 修改日志（Changelog）
 
 将近期合并的 pull requests 按照 features、bugfixes 和 enhancements 更新到对应分支的 CHANGELOG.md 中，示例 [dubbo-go#2360](https://github.com/apache/dubbo-go/pull/2360)。
 
 各 release 分支 CHANGELOG：[main](https://github.com/apache/dubbo-go/blob/main/CHANGELOG.md) | [release-3.1](https://github.com/apache/dubbo-go/blob/release-3.1/CHANGELOG.md) | [release-3.0](https://github.com/apache/dubbo-go/blob/release-3.0/CHANGELOG.md)。
+
+### Version
+
+比如即将发布 v3.1.1-rc1，将 release-3.1 分支的 version.go 的 `Version` 修改为 `3.1.1-rc1`，`DATE` 修改为当前的时间 `2023/12/12`。
+
+各 release 分支 version.go：[main](https://github.com/apache/dubbo-go/blob/main/common/constant/version.go#L21-L23) | [release-3.1](https://github.com/apache/dubbo-go/blob/release-3.1/common/constant/version.go#L21-L23) | [release-3.0](https://github.com/apache/dubbo-go/blob/release-3.0/common/constant/version.go#L21-L23)。
 
 ## 创建 tag 信息
 
